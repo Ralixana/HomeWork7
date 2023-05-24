@@ -94,7 +94,7 @@ public class Main {
     public static void task8 () {
         System.out.println("Задача 8");
         int currentYear = 2023;
-        for (int i = 0; i < currentYear + 100; i = i + 79) {
+        for (int i = 0; i < currentYear + 100; i += 79) {
             if (i > currentYear - 200) {
                 System.out.println(i);
             }
